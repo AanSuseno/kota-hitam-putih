@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: #222;
+}
+
+:root{
+	--lap1: #B0B0B0;
+	--lap2: #898989;
+	--lap3: #696969;
+}
+
+#canvas {
+	height: 60vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 0 2vmin rgba(0,0,0,.4);
+	border-radius: 5vmin;
+	overflow: hidden;
+	background: linear-gradient(to top, #D9D9D9, #1F1F1F);
+}
+
+.tanah {
+	width: 100%;
+	height: 30vmin;
+	background: var(--lap1);
+	top: 30vmin;
+}
+
+.gunung {
+	width: 0;
+	height: 0;
+	border: 1px solid rgba(0,0,0,0);
+	border-width: 9vmin 12vmin;
+	border-bottom-color: var(--lap1);
+	bottom: 30vmin;
+}
+
+#gunung1 {
+	left: 12vmin;
+	border-width: 7vmin 10vmin;
+}
+
+#gunung2 {
+	left: 35vmin;
+	border-width: 7vmin 17vmin;
+}
+
+#gunung3 {
+	left: 60vmin;
+	border-width: 8vmin 15vmin;
+}
+
+#matahari {
+	width: 25vmin;
+	height: 25vmin;
+	background: #F2F2F2;
+	border-radius: 50%;
+	left: 40vmin;
+	top: 12vmin;
+	box-shadow: 0 0 3vmin rgba(242,242,242,.7);
+}
+
+#tanah2 {
+	background: var(--lap2);
+	top: 40vmin;
+}
+
+.gedung {
+	width: 5vmin;
+	height: 17vmin;
+	background: var(--lap2);
+	bottom: 20vmin;
+	left: 2vmin;
+}
+
+#g2 {
+	left: 14vmin;
+	height: 22vmin;
+}
+
+#g3 {
+	left: 22vmin;
+	height: 10vmin;
+}
+
+#g4 {
+	left: 29vmin;
+	height: 7vmin;
+}
+
+#g5 {
+	left: 52vmin;
+	height: 8vmin;
+	width: 10vmin;
+}
+
+#g6 {
+	left: 64vmin;
+	height: 5vmin;
+	width: 11vmin;
+}
+
+#tanah3 {
+	background: var(--lap3);
+	top: 50vmin;
+}
+
+.rumah {
+	width: 10vmin;
+	height: 9vmin;
+	background: var(--lap3);
+	bottom: 9vmin;
+	left: 3vmin;
+}
+
+#r1 {
+	left: 17vmin;
+	width: 2vmin;
+	height: 5vmin;
+}
+
+#r2 {
+	left: 21vmin;
+	width: 14vmin;
+}
+
+#r3 {
+	left: 37vmin;
+	width: 6vmin;
+	height: 23vmin;
+}
+
+#r4 {
+	left: 54vmin;
+	width: 5vmin;
+	height: 8vmin;
+}
+
+#r5 {
+	left: 62vmin;
+	width: 6vmin;
+	height: 8vmin;
+}
+
+#r6 {
+	left: 55vmin;
+	height: 5vmin;
+	width: 16vmin;
+}
+
+#r7 {
+	left: 77vmin;
+	width: 1vmin;
+	height: 6vmin;
+}
+
+.atap {
+	width: 0;
+	height: 0;
+	border: 1px solid rgba(0,0,0,0);
+	border-bottom-color: var(--lap3);
+	border-width: 3vmin 5vmin;
+	left: 3vmin;
+	bottom: 18vmin;
+}
+
+#atap1 {
+	left: 21vmin;
+	border-width: 4vmin 7vmin;
+}
+
+#atap3 {
+	left: 37vmin;
+	bottom: 29vmin;
+	border-color: rgba(0,0,0,0);
+	border-left-color: var(--lap3);
+	border-width: 3vmin 6vmin;
+}
+
+
+
